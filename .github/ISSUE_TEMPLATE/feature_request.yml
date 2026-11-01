@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest a small, useful improvement.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Necoz projects aim to stay small, simple, and useful, and a clear problem statement helps maintainers understand the request.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or motivation
+      description: What is difficult or missing today, and who does it affect?
+      placeholder: I have to repeat the same three steps every time I import a file.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: What would you like the project to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Possible alternatives
+      description: Other approaches you considered, including leaving things as they are.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Examples, links, or constraints that would help. Leave out personal information that is not needed.
+    validations:
+      required: false

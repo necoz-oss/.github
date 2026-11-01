@@ -1,0 +1,58 @@
+name: Bug report
+description: Report something that is not working as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. A few concrete details help maintainers reproduce it.
+
+        Security vulnerabilities belong in a private report. See the repository security policy, or the [Necoz security guidance](https://github.com/necoz-oss/.github/blob/main/SECURITY.md) when the repository uses the organization default. Please leave exploit details out of this public form.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug summary
+      description: What went wrong, in a sentence or two?
+      placeholder: Exporting an empty list does nothing and shows no message.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do just before this happened?
+      placeholder: |
+        1. Open the project with an empty list
+        2. Choose Export
+        3. See the result
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Share the versions and platform that help someone reproduce this. Skip anything you do not know.
+      placeholder: OS, runtime or browser, and project version
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Logs, screenshots, or anything else that would help. Leave out personal information that is not needed to understand the bug.
+    validations:
+      required: false
