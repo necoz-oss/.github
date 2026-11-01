@@ -2,7 +2,7 @@
 
 Necoz welcomes responsible reports of security vulnerabilities in its projects.
 
-Give maintainers a chance to understand and fix a problem before it is discussed in public. Keep unpatched vulnerability details out of issues, pull requests, discussions, and other public channels. That includes exploit steps and proof-of-concept code.
+Please use coordinated disclosure. Give maintainers a reasonable opportunity to investigate and address a vulnerability before it is discussed in public. While that opportunity is open, keep vulnerability details out of issues, pull requests, discussions, and other public channels. That includes exploit steps and proof-of-concept code.
 
 ## Report in private
 
@@ -33,9 +33,9 @@ A clear description is enough. A full exploit is optional.
 
 ## After you report
 
-Wait for a maintainer to reply through the private report, or through the email fallback when you used it. Hold public disclosure until a fix is available and you and the maintainers have agreed on what to share.
+Wait for a maintainer to reply through the private report, or through the email fallback when you used it. Give them a reasonable opportunity to investigate and address the vulnerability before you discuss it in public.
 
-Response time depends on the maintainers of that repository. This organization does not set a deadline.
+Response time depends on the maintainers of that repository. This organization does not set a deadline for a reply, a fix, or public disclosure. Coordinated disclosure leaves maintainers time to respond. It does not require the report to stay private until they approve publication.
 
 ## Repository policies
 

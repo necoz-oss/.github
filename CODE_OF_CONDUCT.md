@@ -45,7 +45,9 @@ Maintainers responsible for the space will:
 3. Choose a response that fits what happened.
 4. Tell the reporter what can be shared about the outcome, and leave out private details that are not needed.
 
-If a report is about a maintainer, another organization owner should handle it. Mail sent to the address above is the private channel listed today, so say so in the message if the report is about the person who reads that inbox.
+If a report is about a maintainer, say so in the message to the address above. Necoz lists no separate contact for that case.
+
+A different organization owner can review that report when the organization has more than one owner. With a single owner, an independent reporting or review process may not exist yet, and the person the report is about may be the only one who can read it. This document does not promise an independent review, or confidentiality beyond what that person can practically keep.
 
 ## Maintainer responsibilities
 
